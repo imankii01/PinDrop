@@ -71,7 +71,7 @@ const Home = () => {
   };
 
   return (
-    <div>
+    <div className='container py-3'>
       <Form
         name="myForm"
         onFinish={onFinish}
